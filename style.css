@@ -1,0 +1,234 @@
+/* VARIÁVEIS DO CSS */
+
+:root {
+    --primary: #24282E; 
+    --secondary: #0c0e10;
+    --light: #ffffff;
+    --red: #B04141;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+/* HTML */
+
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: var(--light);
+}
+
+body {
+    background: var(--primary);
+    margin: 0px 0px;
+    line-height: 1.4;
+}
+
+/* BOTÕES */
+
+.btn {
+    background-color: var(--red);
+    color: var(--light);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+}
+
+.btn-two {
+    background-color: rgba(12, 14, 16, .5);
+    color: var(--light);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: solid;
+    border-color: var(--red);
+    border-width: 1px;
+}
+
+/* IMAGEM */
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    display: grid;
+}
+
+/* NAVIGATION */
+
+.top-header {
+    box-shadow: var(--shadow);
+    background-color: var(--secondary);
+}
+
+footer {
+    box-shadow: var(--shadow);
+    background-color: var(--secondary);
+}
+
+footer ul {
+    display: flex;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    justify-content: right;
+}
+
+footer a {
+    color: var(--red);
+    text-decoration: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+}
+
+footer a:hover {
+    color: #863131;
+}
+
+.main-nav ul {
+    display: grid;
+    grid-gap: 20px;
+    padding: 0;
+    list-style: none;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.main-nav a {
+    color: var(--red);
+    text-decoration: none;
+    padding: 0.8rem;
+    font-size: 1rem;
+}
+
+.main-nav a .left {
+    text-align: left;
+}
+
+.main-nav a .right {
+    text-align: right;
+}
+
+/* LOGO DO SITE AQUI */
+
+b {
+    font-size: 2.25rem;
+    padding: 2rem;
+}
+
+.main-nav a:hover {
+    color: #863131;
+}
+
+linha {
+    color: #B04141;
+}
+
+/* IMAGEM DO ORDEM */
+
+.info {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+    'showcase'
+}
+
+.showcase {
+    grid-area: showcase;
+    min-height: 400px;
+    padding: 3rem;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(2px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: var(--shadow);
+}
+
+.showcase h1 {
+    font-size: 2.25rem;
+}
+
+.showcase p {
+    font-size: 1.25rem;
+}
+
+.showcase .btn {
+    margin-bottom: 10px;
+}
+
+.showcase .btn-two {
+    margin-bottom: 10px;
+}
+
+.bgordem {
+    background: url(images/conhecimento.jpeg);
+    background-size: cover;
+    background-position: center;    
+
+}
+
+.inforpg {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+    'top-box-a top-box-b'
+}
+
+.inforpg-2 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+    'top-box-a top-box-b'
+}
+
+.top-box-a {
+    grid-area: top-box-a;
+}
+
+.top-box-b {
+    grid-area: top-box-b;
+}
+
+.top-box-a h1 {
+    font-size: 2.25rem;
+    margin-left: 3rem;
+}
+
+.top-box-a img {
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.top-box-a p {
+    display: flex;
+    justify-content: left;
+    text-align: justify;
+    font-size: 0.938rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    line-height: 50px;
+}
+
+
+.top-box-b h1 {
+    display: flex;
+    justify-content: right;
+    font-size: 2.25rem;
+    margin-right: 3rem;
+}
+
+.top-box-b img {
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.top-box-b p {
+    display: flex;
+    justify-content: right;
+    font-size: 0.938rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    text-align: justify;
+    line-height: 50px;
+}
