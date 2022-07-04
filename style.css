@@ -1,5 +1,7 @@
 /* VARIÁVEIS DO CSS */
-
+::-webkit-scrollbar {
+    width: 0;
+}
 :root {
     --primary: #24282E; 
     --secondary: #0c0e10;
@@ -62,6 +64,7 @@ img {
 
 .logo {
     grid-area: logo;
+    margin-left: 2rem;
 }
 
 .logo li {
@@ -73,11 +76,13 @@ img {
 .main-left {
     grid-area: main-left;
     align-items: center;
+    margin-left: -280px;
 }
 
 .main-right {
     grid-area: main-right;
     align-items: center;
+    margin-right: 2rem;
 }
 
 .main-nav .main-left {
@@ -168,7 +173,8 @@ linha {
 .showcase {
     grid-area: showcase;
     min-height: 400px;
-    padding: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     background-size: cover;
     background-position: center;
     backdrop-filter: blur(2px);
@@ -177,10 +183,13 @@ linha {
     align-items: flex-start;
     justify-content: center;
     box-shadow: var(--shadow);
+    height: 100%;
+    font-weight: bold;
 }
 
 .showcase h1 {
-    font-size: 2.25rem;
+    font-size: 4rem;
+    margin-top: -20rem;
 }
 
 .showcase p {
@@ -199,7 +208,8 @@ linha {
     background: url(images/conhecimento.jpeg);
     background-size: cover;
     background-position: center;    
-
+    height: 800px;
+    opacity: 50%;
 }
 
 .inforpg {
@@ -232,6 +242,12 @@ linha {
 .top-box-a img {
     margin-right: 3rem;
     margin-left: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: var(--shadow);
+    height: auto; 
+    width: auto; 
+    max-width: 600px; 
+    max-height: 600px;
 }
 
 .top-box-a p {
@@ -242,6 +258,7 @@ linha {
     margin-right: 3rem;
     margin-left: 3rem;
     line-height: 50px;
+    font-weight: bold;
 }
 
 
@@ -250,11 +267,18 @@ linha {
     justify-content: right;
     font-size: 2.25rem;
     margin-right: 3rem;
+    margin-top: -.5rem;
 }
 
 .top-box-b img {
     margin-right: 3rem;
     margin-left: 3rem;
+    margin-top: 2.4rem;
+    box-shadow: var(--shadow);
+    height: auto; 
+    width: auto; 
+    max-width: 800px; 
+    max-height: 800px;
 }
 
 .top-box-b p {
@@ -262,7 +286,9 @@ linha {
     justify-content: right;
     font-size: 0.938rem;
     margin-right: 3rem;
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
     text-align: justify;
-    line-height: 50px;
+    line-height: 3.125;
+    font-weight: bold;
 }
+
