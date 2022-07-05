@@ -1,0 +1,56 @@
+/* VARIÁVEIS DO CSS */
+::-webkit-scrollbar {
+    width: 0;
+}
+:root {
+    --primary: #24282E; 
+    --secondary: #0c0e10;
+    --light: #ffffff;
+    --red: #B04141;
+    --shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
+}
+
+
+/* HTML */
+
+html {
+    box-sizing: border-box;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: var(--light);
+}
+
+body {
+    background: linear-gradient(#0c0e10, #24282E);
+    margin: 0px 0px;
+    line-height: 1.4;
+}
+
+/* BOTÕES */
+
+.linecut {
+    color: #B04141; 
+    width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: var(--red);
+    color: var(--light);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: 0;
+    width: 200px;
+    margin-top: 30px;
+}
+
+.btn-two {
+    background-color: rgba(12, 14, 16, .5);
+    color: var(--light);
+    padding: 0.6rem 1.3rem;
+    text-decoration: none;
+    border: solid;
+    border-color: var(--red);
+    border-width: 1px;
+    width: 200px;
+}
