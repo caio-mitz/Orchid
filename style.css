@@ -1,3 +1,14 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+:root {
+    --primary: #24282E; 
+    --secondary: #0c0e10;
+    --light: #ffffff;
+    --red: #B04141;
+    --shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
+}
+
 /* IMAGEM */
 
 img {
