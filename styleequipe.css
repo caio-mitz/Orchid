@@ -30,7 +30,7 @@ img {
     /* grid-gap: 20px; */
 }
 
-/* HEADER */
+/* TOP HEADER */
 
 .top-header {
     display: grid;
@@ -102,59 +102,6 @@ img {
 
 /* FIM DO HEADER */
 
-/* SOBRE NÓS */
-
-.sobrenos {
-    display: grid;
-    margin-top: 3rem;
-    margin-left: 2rem;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 
-    'top-box-a top-box-b';
-}
-
-.element {
-    display: grid;
-    padding: 1.5rem;
-    margin-top: -3rem;
-}
-
-.top-box-a {
-    grid-area: top-box-a;
-}
-
-.top-box-a h1 {
-    font-weight: bold;
-    display: flex;
-    justify-content: left;
-    font-size: 2.25rem;
-}
-
-.top-box-a p {
-    line-height: 3rem;
-    text-align: justify;
-    display: flex;
-    justify-content: left;
-    font-size: 20px;
-}
-
-.top-box-b {
-    display: flex;
-    grid-area: top-box-b;
-    align-items: center;
-    justify-content: center;
-}
-
-.top-box-b img {
-    height: 500px;
-    width: auto;
-    display: flex;
-    justify-content: right;
-    align-items: baseline;
-}
-
-/* FIM DO SOBRE NÓS */
-
 /* FOOTER */
 
 footer {
@@ -199,3 +146,41 @@ linha {
 
 
 /* FIM DO FOOTER */
+
+/* TELA */
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 
+    'top-box-a top-box-b';
+    padding: 18rem;
+}
+
+.top-box {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 1.5rem;
+    width: 5rem;
+}
+
+.top-box-a {
+    grid-area: top-box-a;
+    display: flex;
+    
+}
+
+.top-box-b {
+    grid-area: top-box-b;
+}
+
+.top-box a {
+    color: var(--light);
+    font-size: 4rem;
+    font-weight: bold; 
+}
+
+.top-box-a a {
+    text-align: justify;
+}
