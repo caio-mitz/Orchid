@@ -111,6 +111,8 @@ img {
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas: 
     'top-box-a top-box-b';
+    align-items: center;
+    justify-content: center;
     height: 50rem;
 }
 
@@ -139,6 +141,22 @@ img {
     font-size: 20px;
 }
 
+.top-box-a .contact-list {
+    list-style: none;
+    text-decoration: underline;
+    margin-left: -2rem;
+}
+
+.contact-list a{
+    font-size: 30px;
+}
+
+.top-box-a a {
+    text-decoration: none;
+    color: var(--light);
+    font-weight: bold;
+}
+
 .top-box-b {
     display: flex;
     grid-area: top-box-b;
@@ -146,12 +164,13 @@ img {
     justify-content: center;
 }
 
-.top-box-b img {
+.top-box-b .contato-image {
     height: 500px;
     width: auto;
     display: flex;
     justify-content: right;
     align-items: baseline;
+    fill: #ffffff;
 }
 
 /* FIM DO SOBRE NÓS */
