@@ -162,7 +162,7 @@ linha {
     grid-template-columns: 1fr 1px 1fr;
     grid-template-areas: 
     'top-box-a linecut top-box-b';
-    height: 45rem;
+    height: 50rem;
 }
 
 
