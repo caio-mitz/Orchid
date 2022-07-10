@@ -25,6 +25,12 @@ img {
     max-width: 100%;
 }
 
+.logo img {
+    width: 180px;
+    height: auto;
+    padding: 0px;
+}
+
 .wrapper {
     display: grid;
     /* grid-gap: 20px; */

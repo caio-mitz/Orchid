@@ -45,6 +45,10 @@ img {
     margin-left: -280px;
 }
 
+/* .main-left .box-a {
+    margin-right: 500px;
+} */
+
 .main-right {
     grid-area: main-right;
     align-items: center;

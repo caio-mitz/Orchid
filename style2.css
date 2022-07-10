@@ -54,3 +54,9 @@ body {
     border-width: 1px;
     width: 200px;
 }
+
+.logo img {
+    width: 180px;
+    height: auto;
+    padding: 0px;
+}
